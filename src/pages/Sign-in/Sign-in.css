@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     margin: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -8,7 +7,6 @@ a{
 }
 .container {
     display: flex;
-    height: 100%;
 }
 .half {
     padding: 35px 60px;
@@ -18,7 +16,6 @@ a{
 .left {
     flex:0.8;
     background-color: #e2ca2e;
-    height: 100%;
 }
 .logo{
     height:50px;
@@ -28,21 +25,19 @@ a{
     color: #433b09;
 }
 .image{
-    height:450px;
+    height:482px;
     width: 400px;
 }
 .right {
     flex:2;
 }
 .inner{
-    margin-left:200px;
+    margin-left:100px;
 }
 .Login{
     position: absolute;
-    margin-top: 0;
-    margin-left:650px;
-    top: 0 px;
-    right: 20px;
+    right: 50px;
+    top:5px;
 }
 .right-heading{
     margin-bottom: 70px;
@@ -55,6 +50,7 @@ a{
 }
 .username{
     margin-left: 20px;
+    flex: 1;
 }
 .email{
     margin-top: 20px;
@@ -67,39 +63,47 @@ a{
 .name,.password,.username,.email{
     font-weight: bold;
 }
+.name{
+    flex: 1;
+}
 .checkbox,.context{
     color:rgb(145, 145, 145);
 }
 .name1{
-    padding: 7px 30px;
+    padding: 7px 10px;
     border-radius: 5px;
     border: none;
     background-color:rgb(232, 232, 232);
+    width: 200px;
 }
 .user{
-    padding: 7px 30px;
+    padding: 7px 10px;
     border-radius: 5px;
     border: none;
     background-color:rgb(232, 232, 232);
+    width: 160px;
 }
 .email1{
-    padding: 7px 149px;
+    padding: 7px 10px;
     border-radius: 5px;
     border: none;
     background-color:rgb(232, 232, 232);
+    width: 420px;
 }
 .pass{
-    padding: 7px 149px;
+    padding: 7px 10px;
     border-radius: 5px;
     border: none;
     background-color:rgb(232, 232, 232);
+    width: 420px;
 }
-.button{
+.btn{
     color: white;
     background-color: rgb(238, 65, 146);
     border: none;
     border-radius: 5px;
     padding:8px 50px;
+    cursor: pointer ;
 }
 .context{
     font-size:14px;

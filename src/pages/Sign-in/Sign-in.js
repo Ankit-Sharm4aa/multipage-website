@@ -30,12 +30,6 @@ function Signin() {
         alt="Image"
         className="image"
       />
-      <p>
-        Art by{" "}
-        <a href="" className="artist">
-          Ankit Sharma
-        </a>{" "}
-      </p>
     </div>
     <div className="half right">
       <div className="inner">
@@ -105,12 +99,9 @@ function Signin() {
           </div>
           <div className="submit">
             <a href="C:\Users\ankit\OneDrive\Desktop\Assignment\Profilepic\Profilepic.html">
-              <input
-                type="submit"
-                defaultValue="Create Account"
-                name=""
-                className="button"
-              />
+              <button
+                className="btn"
+              >Create Account</button>
             </a>
             <br />
             <br />
