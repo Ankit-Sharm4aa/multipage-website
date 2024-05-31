@@ -1,0 +1,89 @@
+.footer {
+  background-color: rgb(240, 240, 240);
+}
+.container {
+  display: flex;
+  padding: 50px;
+}
+.container-left {
+  flex: 0.5;
+}
+.container-right {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-left: 100px;
+}
+ol {
+  list-style: none;
+}
+li {
+  margin: 10px 0px;
+}
+.footer-link {
+  text-decoration: none;
+  color: black;
+}
+.rule {
+  color: rgb(222, 222, 222);
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: rgb(120, 120, 120);
+  border-top: 2px solid rgb(228, 228, 228);
+}
+.bottom-dribbble {
+  margin-right: 30px;
+}
+.ico {
+  width: 20px;
+  height: 20px;
+}
+.footer-heading {
+  font-weight: bold;
+  font-size: 17px;
+}
+.Designer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.Hire {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.Brand {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.Company {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.Directories {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.Assets {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.Resources {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
