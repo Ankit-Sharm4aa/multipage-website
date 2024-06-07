@@ -47,3 +47,30 @@
   border-radius: 4px;
   color: white;
 }
+.article {
+  width: 580px;
+  margin: auto;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.article-p {
+  color: rgb(117, 117, 117);
+}
+.content {
+  margin-top: 10px;
+}
+.mail-image {
+  width: 120px;
+  height: 120px;
+}
+.email {
+  margin: 15px 0px;
+  color: black;
+  font-weight: bolder;
+}
+.article-link {
+  color: rgb(238, 65, 146);
+  font-weight: bold;
+  text-decoration: none;
+}

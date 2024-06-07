@@ -2,8 +2,9 @@ import React from "react";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 import success_logo from "../../components/images/success.png";
+import "./verif.css";
 
-function verif() {
+function Verif() {
   return (
     <>
       <Navbar />
@@ -42,4 +43,4 @@ function verif() {
   );
 }
 
-export default verif;
+export default Verif;

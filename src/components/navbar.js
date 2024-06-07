@@ -2,10 +2,11 @@ import React from "react";
 import company_logo from "./images/dribbble-4.svg";
 import no_job from "./images/no-job.jpg";
 import user_pfp from "./images/user.png";
+import "./components-style/nav.css";
 
 function Navbar() {
   return (
-    <>
+    <div className="navbar">
       <a href="" className="">
         <img src={company_logo} className="brand-logo" />
       </a>
@@ -38,7 +39,7 @@ function Navbar() {
         </div>
         <button className="up nav2">Upload</button>
       </div>
-    </>
+    </div>
   );
 }
 
