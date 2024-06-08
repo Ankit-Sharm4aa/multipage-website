@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sign-up.css";
+import { Link } from "react-router-dom";
 
 function Signup() {
   return (
@@ -63,23 +63,24 @@ function Signup() {
             <input type="checkbox" name="checkbox" />
             <label htmlFor="checkbox">
               Creating an account means you're okay with our
-              <a href="">Terms of Service, Privacy Policy,</a> and our default{" "}
+              <a href=""> Terms of Service, Privacy Policy,</a> and our default{" "}
               <a href="">Notification Settings.</a>
             </label>
             <br />
             <br />
           </div>
           <div className="submit">
-            <a href="C:\Users\ankit\OneDrive\Desktop\Assignment\Profilepic\Profilepic.html">
+            <Link to="/Signin/Registration">
               <button className="btn">Create Account</button>
-            </a>
+            </Link>
             <br />
             <br />
           </div>
-          <div className="context">
+          <div className="context-signin">
             <label>
-              This site is protected by reCaptcha and the Google
-              <a href="">Privacy Policy</a> and <a>Terms of Service</a>
+              This site is protected by reCaptcha and Google's
+              <a href=""> Privacy Policy</a> and{" "}
+              <a href="">Terms of Service </a>
               apply.
             </label>
           </div>

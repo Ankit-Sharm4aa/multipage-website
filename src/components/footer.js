@@ -1,8 +1,10 @@
 import React from "react";
+import "./components-style/footer.css";
+import ball from "./images/logo.png";
 
 function Footer() {
   return (
-    <>
+    <div className="footer">
       <div className="container">
         <div className="container-left">
           <p className="footer-heading">Dribbble</p>
@@ -242,12 +244,12 @@ function Footer() {
         </div>
         <div>
           <p className="bottom-dribbble">
-            <strong className="dribbble">20,501,853</strong> shots dribbbled{" "}
-            <img src="logo.png" className="ico" />
+            <strong className="">20,501,853</strong> shots dribbbled{" "}
+            <img src={ball} className="ico" />
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
