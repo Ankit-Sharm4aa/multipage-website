@@ -244,7 +244,7 @@ function Footer() {
         </div>
         <div>
           <p className="bottom-dribbble">
-            <strong className="dribbble">20,501,853</strong> shots dribbbled{" "}
+            <strong className="">20,501,853</strong> shots dribbbled{" "}
             <img src={ball} className="ico" />
           </p>
         </div>

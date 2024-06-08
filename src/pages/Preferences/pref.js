@@ -2,6 +2,7 @@ import React from "react";
 import "./pref.css";
 import company_logo from "../../components/images/dribbble-4.svg";
 import green_tick from "../../components/images/Paomedia-Small-N-Flat-Sign-check.1024.png";
+import { Link } from "react-router-dom";
 
 function Pref() {
   return (
@@ -12,7 +13,7 @@ function Pref() {
         </a>
         <button className="button">&lt;</button>
       </div>
-      <div className="container">
+      <div className="container-pref">
         <div className="heading">
           <h1>What brings you to Dribbble?</h1>
           <p className="context">
@@ -20,7 +21,7 @@ function Pref() {
             explore other options later.
           </p>
         </div>
-        <div className="content">
+        <div className="content-pref">
           <div className="el1">
             <img src={green_tick} className="im1" alt="Image" />
             <br />
@@ -42,13 +43,9 @@ function Pref() {
         </div>
         <div className="fin">
           <button className="finish">
-            <a
-              href="C:\Users\ankit\OneDrive\Desktop\Assignment\Verify\Verify.html"
-              target="_blank"
-              className="link"
-            >
+            <Link to="/Signin/Registration/Verification" className="link">
               Finish
-            </a>
+            </Link>
           </button>
         </div>
       </div>
