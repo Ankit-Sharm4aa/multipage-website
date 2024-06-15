@@ -1,0 +1,125 @@
+a {
+  text-decoration: none;
+}
+.container-signin {
+  display: flex;
+}
+.half {
+  padding: 35px 60px;
+  box-sizing: border-box;
+}
+/* Optional styling for each half */
+.left {
+  flex: 0.8;
+  background-color: #e2ca2e;
+}
+.logo {
+  height: 50px;
+  width: 90px;
+}
+.left-heading {
+  color: #433b09;
+  margin-bottom: 50px;
+}
+.image {
+  height: 500px;
+  width: 400px;
+}
+.right {
+  flex: 2;
+}
+.inner {
+  margin-left: 100px;
+}
+.Login {
+  position: absolute;
+  right: 50px;
+  top: 5px;
+}
+.right-heading {
+  margin-bottom: 70px;
+}
+.form {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+.username {
+  margin-left: 20px;
+  flex: 1;
+}
+.email {
+  margin-top: 20px;
+  flex: 2;
+}
+.password {
+  margin: 20px 0px;
+  flex: 2;
+}
+.name,
+.password,
+.username,
+.email {
+  font-weight: bold;
+}
+.name {
+  flex: 1;
+}
+.checkbox,
+.context-signin {
+  color: rgb(145, 145, 145);
+}
+.name1 {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(232, 232, 232);
+  width: 200px;
+}
+.user {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(232, 232, 232);
+  width: 160px;
+}
+.email1 {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(232, 232, 232);
+  width: 420px;
+}
+.pass {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(232, 232, 232);
+  width: 420px;
+}
+.btn {
+  color: white;
+  background-color: rgb(238, 65, 146);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 50px;
+  cursor: pointer;
+}
+.context-signin {
+  font-size: 14px;
+  width: 320px;
+}
+.artist {
+  text-decoration: underline;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .half {
+    flex: none;
+    width: 100%;
+  }
+}
